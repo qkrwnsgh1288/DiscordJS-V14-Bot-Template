@@ -39,7 +39,7 @@ module.exports = class extends Client {
 
         commands(this);
         events(this);
-        mongoose();
+        // mongoose();
 
         if (config.handler.deploy) deploy(this, config);
     };
